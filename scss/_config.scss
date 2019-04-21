@@ -1,4 +1,4 @@
-$primary-color: rgb(50, 144, 158);
+$primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background2.jpg);
@@ -14,7 +14,7 @@ $background-opacity: 0.9;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
-
+// overlay its possible
       &:after {
         content: '';
         position: absolute;

@@ -1,0 +1,23 @@
+{
+  "name": "abdullah_portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullhRtima/My_portfolio.git"
+  },
+  "author": "abdullah abu rtima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdullhRtima/My_portfolio/issues"
+  },
+  "homepage": "https://github.com/AbdullhRtima/My_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
